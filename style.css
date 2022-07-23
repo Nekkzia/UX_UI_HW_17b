@@ -1,20 +1,41 @@
+
+.header{
+  color: #9e9e9e;
+  border: #9e9e9e;
+}
+
+
+
+
+
+
 .Profile-pic{
     float: left;
-      width: 400px;
+      width: 350px;
       height:350px;
-      object-fit:contain;
+      margin-left: 0px;
+      padding-left: 200px;
       display: block;
   
   }
   
-  .Profile-picture2{
-    width: 250px;
-      height:300px;
-  }
-  
+  .gallery_img
+  {
+
+    width:200px;
+    height:300px
+    
+      
+    }
   
   .logo{
       float: left;
+      height:70px;
+      width: 150px;
+   margin-left: 100px;
+   display: inline;
+  
+   padding:0;
   }
   
   .Greetings {font-size: 40px;
@@ -22,29 +43,60 @@
   
   }
   
+ 
   .Into-Message {
       font-family: 'Playfair Display', serif;
-       float:inline;
+      font-size: 16px;
+      color: #512804;
+      width: 1000px;
+       float:inline;}
   
-  }
+  
   .Italic{
     font-family: 'Playfair Display', serif;
     font-size:14px ;
-    padding-left: 300px;
+    padding-left: 100px;
+    margin-left:120px;
+
     color:#A14D03;
-       float:inline left;
+    width: 700px;
+    float:inline left;}
+
+  .tagline{
+    font-family: 'Playfair Display', serif;
+    margin-left:100px;
+    padding-left:50px;   
+
+    width: 800px;
+
+    font-size:16px ;
+    color:#512804;
+    display:flex;
+  
+
   
   }
+
+  img{
+ 
+    float: left;
+      width: 200px;
+      height:200px;
+      margin-left: 50px;
+     padding-left: 250px;   
+ 
+  }
+ 
   
   
   .menu li{
     display: inline;
-  
-  }
-  .nav{
     width:"100%";
     float: center;
-  }
+  
+  
+    }
+  
   .menu{
     height: 200px;
     position: relative;
@@ -55,51 +107,120 @@
     background-color:white;
   
   } 
-  .button1{
-    
-    margin: 0;
+  .Home{
+
+    margin:0 ;
     position: absolute;
     top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  
+    left: 45%;   
     font-family: 'Playfair Display', serif;
     font-size: 16px;
    font-style: italic;
-   color:#55140c
-  ;
-   
+   color:#A14D03; 
+
   }
-  .button2{
+  .About{
     position: absolute;
   
     margin:0 ;
     position: absolute;
     top: 50%;
     left: 55%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  
     font-family: 'Playfair Display', serif;
     font-size: 16px;
    font-style: italic;
    color: #9e9e9e;
    
   }
-  .button3{
+
+  
+
+  .Projects {
     position: absolute;
   
     margin:0 ;
     position: absolute;
     top: 50%;
-    left: 60%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    left: 66%;
+   
   
     font-family: 'Playfair Display', serif;
     font-size: 16px;
    font-style: italic;
    color: #9e9e9e;
 }
+
+
+   .about-pic
+   {
+      margin: left;   }
+
+
    
+   section
+   {
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+
+
+  .container1{
+    background-color:rgb(247, 166, 61);
+    width: 10vh;
+    border-radius: 50%;
+    max-width: 200px;
+    margin:20%;
+    padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left:14px;
+   padding-right:14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200;
+    font-family:'Playfair Display', serif;
+    font-size: 10px;  transition:1s,color white; 
+   }
+
+
+
+
+  .container2{
+    background-color:rgb(144, 249, 251);
+    width: 10vh;
+    border-radius: 50%;
+    color: rgb(27, 26, 26);
+    max-width: 200px;
+    margin:20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:14px;
+    padding-right:14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 252px; 
+    font-family:'Playfair Display', serif;
+    font-size: 10px;
+    
+  }
+
+   
+.container1:hover{
+  background-color: rgb(144, 249, 251);
+  color:rgb(61, 60, 60);
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.09);
+
+}
+
+.container2:hover
+{    background-color:rgb(247, 166, 61);
+  color: rgb(61, 60, 60);
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.09);
+
+}
